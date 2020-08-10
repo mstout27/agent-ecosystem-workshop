@@ -8,7 +8,7 @@ A jar file is a Java archive file, used to merge several files together.  This f
 simple HTTP transactions, as well as easier loading and downloading times due to the compression of files.
 As such, the jar file contains compiled bytecode, rather than the slower uncompiled .java files.
 
-In this instance, the compiled **HelloWorld.class** is used to generate the **hello.jar** file using 
+In this instance, only the compiled **HelloWorld.class** is used when generating the **hello.jar** file: 
 >jar cf hello.jar com/contrastsecurity/HelloWorld.class  
 
 However, to run the main method within the .jar file, you need to specify 
