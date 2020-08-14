@@ -9,12 +9,12 @@ simple HTTP transactions, as well as easier loading and downloading times due to
 As such, the jar file contains compiled bytecode, rather than the slower uncompiled .java files.
 
 In this instance, only the compiled **HelloWorld.class** is used when generating the **hello.jar** file: 
->jar cf hello.jar com/contrastsecurity/HelloWorld.class  
+```jar cf hello.jar com/contrastsecurity/HelloWorld.class```  
 
 However, to run the main method within the .jar file, you need to specify 
 the full classpath of the main method:
->java -cp hello.jar com.contrastsecurity.HelloWorld
+```java -cp hello.jar com.contrastsecurity.HelloWorld```
 
 To alleviate this, a manifest file is added that includes all necessary information, such as the version and the classpath of the main method.
 By recreating the jar file including the manifest, the main method can be run directly with the command
->java -jar hello.jar
+```java -jar hello.jar```

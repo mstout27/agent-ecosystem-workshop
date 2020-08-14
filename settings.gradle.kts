@@ -10,3 +10,4 @@
 rootProject.name = "agent-ecosystem-workshop"
 include(":b-gradle-application")
 include(":c-dependencies")
+include(":d-web-application")
