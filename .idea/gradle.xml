@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/c-dependencies" />
             <option value="$PROJECT_DIR$/d-web-application" />
             <option value="$PROJECT_DIR$/e-app-server" />
+            <option value="$PROJECT_DIR$/f-java-agent" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />

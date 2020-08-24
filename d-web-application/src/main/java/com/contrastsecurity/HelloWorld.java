@@ -8,7 +8,7 @@ import org.glassfish.jersey.server.ResourceConfig;
 
 public class HelloWorld{
   public static void main(String[] args){
-    System.out.println("Hello World");
+    System.out.println("hi");
     final ResourceConfig resourceConfig = ResourceConfig.forApplication(new TestApplication());
     final HttpServer httpServer = GrizzlyHttpServerFactory.createHttpServer(UriBuilder.fromUri("http://localhost/").port(8080).build(), resourceConfig);
   }

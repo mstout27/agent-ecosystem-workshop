@@ -4,7 +4,7 @@ import org.apache.commons.text.CaseUtils;
 
 public class HelloWorld{
   public static void main(String[] args){
-    String string = "java-programming-language";
+    String string = "Hello world";
 
 // Capitalizes the first letter
     System.out.println(CaseUtils.toCamelCase(string, true, '-'));
